@@ -6,7 +6,7 @@ class Database:
         self.connection = None
         try:
             self.connection = pymysql.connect(
-                host='mariadb',
+                # host='mariadb',
                 # host='svc.sel5.cloudtype.app',
                 # port=3308,
                 database='test',  # test 데이터베이스 사용
